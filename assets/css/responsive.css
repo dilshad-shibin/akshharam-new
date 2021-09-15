@@ -430,7 +430,7 @@
     }
     .welcome-area{
         /* height: 410px !important; */
-        height: 50vh;
+        height: 50vh !important;
         background-position: center;
     }
     /* .navbar-brand img{
@@ -637,5 +637,13 @@
         padding-right: 0;
         font-size: 18px;
         line-height: 30px;
+    }
+    .about-content p{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .about-content .mobile-scroll{
+        max-height: 250px;
+        overflow-y: scroll;
     }
 }
