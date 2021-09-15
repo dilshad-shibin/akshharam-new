@@ -429,7 +429,8 @@
         font-size: 40px;
     }
     .welcome-area{
-        height: 410px !important;
+        /* height: 410px !important; */
+        height: 50vh;
         background-position: center;
     }
     /* .navbar-brand img{
@@ -570,6 +571,13 @@
     }
     .footer-area .footer-items ul li{
         padding: .3rem .5rem;
+    }
+    .popup-img-main{
+        display: none;
+    }
+    .popup-img-main2{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 }
 

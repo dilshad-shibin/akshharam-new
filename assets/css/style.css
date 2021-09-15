@@ -599,6 +599,11 @@ img {
     margin-left: 10px;
 }
 
+.navbar-dark .navbar-nav .nav-link:focus, 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #000000;
+}
+
 /* ******************************
 :: 8.0 WELCOME AREA CSS
 ****************************** */
@@ -1121,7 +1126,7 @@ img {
 
 .download-close{
     float: right;
-    background: #9b1b44;
+    background: #2e2a29;
     border-radius: 45px;
     border: 1px solid transparent;
     width: 46px;
@@ -1135,7 +1140,7 @@ img {
 }
 
 .download-close:hover{
-    background: #74c0c9;
+    background: #c5a10f;
 }
 
 .download-close span {
@@ -1174,7 +1179,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
-    background: linear-gradient(to right, #9b1b44 0%, transparent 100%);
+    background: linear-gradient(to right, #c5a10f 0%, transparent 100%);
     z-index: 99;
 }
 
@@ -1233,7 +1238,7 @@ img {
 }
 
 .popup-btn a{
-    background: #9b1b44;
+    background: #ea5f4a;
     color: #fff;
     padding: 12px 50px;
     border-radius: 5px;
@@ -1241,13 +1246,27 @@ img {
 }
 
 .popup-btn a:hover{
-    background-color: #144d5b;
+    background-color: #c5a10f;
     color: #fff;
 }
 
 .popup-btn{
     margin-top: 20px;
 }
+
+.modal.fade .modal-dialog{
+    display: flex;
+}
+
+.popup-img-main{
+    background-color: #2f9331;
+}
+
+.popup-img img{
+    width: 280px;
+}
+
+
 
 /* ******************************
 :: 14.0 FOOTER AREA CSS
