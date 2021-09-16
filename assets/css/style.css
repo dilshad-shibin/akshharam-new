@@ -14,6 +14,7 @@
 :: 12.0 TESTIMONIALS AREA CSS
 :: 13.0  POPUP AREA
 :: 14.0 FOOTER AREA CSS
+:: 15.0 AUTO POUP AREA CSS
 ****************************** */
 
 /* ******************************
@@ -419,7 +420,7 @@ img {
     width: 40px;
     line-height: 40px;
     border-radius: 3px;
-    background-color: #2e2a29;
+    background-color: rgb(197, 161, 15);
     text-align: center;
     cursor: pointer;
     z-index: 500;
@@ -618,18 +619,30 @@ img {
 /* ******************************
 :: 9.0 ABOUT AREA CSS
 ****************************** */
-/* @font-face {
-    font-family: "apple-cards-aseel";
-    src: url(../fonts/apple-cards-aeel-1.ttf);
-} */
-.about-content p{
+/* .about-content p{
     color: #12587e;
     font-family: 'Gayathri', sans-serif;
     font-weight: 400;
     line-height: 28px;
     font-size: 25px;
     letter-spacing: 1px;
+} */
+
+/* new css */
+.about-area{
+    padding-bottom: 80px;
 }
+
+.about-content p{
+    color: #12587e;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 20px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* new close */
 
 .about-link{
     margin-top: 55px;
@@ -1272,11 +1285,13 @@ img {
 :: 14.0 FOOTER AREA CSS
 ****************************** */
 .footer-area {
-    background-color: #c5a10f;
+    /* background-color: #c5a10f; */
+    background-color: #434446;
 }
 
 .copyright-area {
-    border-top: 1px solid #e0cc7d;
+    /* border-top: 1px solid #e0cc7d; */
+    border-top: 1px solid #77787a;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1285,7 +1300,8 @@ img {
 }
 
 .footer-area  .footer-items-menu{
-    border-top: 1px solid #e0cc7d;
+    /* border-top: 1px solid #e0cc7d; */
+    border-top: 1px solid #77787a;
     padding-top: 20px;
 }
 
@@ -1302,7 +1318,7 @@ img {
 .footer-area .footer-items a:focus,
 .footer-area .copyright-area a:hover,
 .footer-area .copyright-area a:focus {
-    color: #2e2a29 !important;
+    color: rgb(197, 161, 15) !important;
 }
 
 .footer-area .mail-social-icons{
@@ -1345,7 +1361,7 @@ img {
 }
 
 .footer-area .mail-social-icons a:hover{
-    color: #2e2a29 !important;
+    color: rgb(197, 161, 15) !important;
 }
 
 .footer-area .mail-social-icons ul{
@@ -1380,3 +1396,40 @@ img {
     max-width: 350px;
 }
 
+/* ******************************
+:: 15.0 AUTO POUP AREA CSS
+****************************** */
+.malayalam-content p{
+    color: #12587e;
+    font-family: 'Gayathri', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.modal-content-auto{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+    background-image: url(../img/bg/bg-popup.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.modal-auto{
+    overflow-y: scroll;
+}
+
+.about-link-modal{
+    margin-top: 40px;
+}
+
+.about-link-modal a{
+    opacity: inherit;
+    float: inherit;
+    font-weight: 500;
+    padding: 15px 50px;
+}

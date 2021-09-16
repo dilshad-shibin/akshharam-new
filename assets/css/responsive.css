@@ -638,9 +638,16 @@
         font-size: 18px;
         line-height: 30px;
     }
-    .about-content p{
+    /* .about-content p{
         font-size: 22px;
         line-height: 25px;
+    } */
+    .about-content p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .about-area{
+        padding-bottom: 0;
     }
     .about-content .mobile-scroll{
         max-height: 250px;

@@ -120,85 +120,37 @@
         }
     });
 
-
-    // :: 14.0 FANCYBOX IMAGE GALLERY
-    $('[data-fancybox="images"]').fancybox({
-        afterLoad: function (instance, current) {
-            var pixelRatio = window.devicePixelRatio || 1;
-
-            if (pixelRatio > 1.5) {
-                current.width = current.width / pixelRatio;
-                current.height = current.height / pixelRatio;
-            }
-        }
-    });
-
-    $('[data-fancybox]').fancybox({
-        youtube: {
-            controls: 0,
-            showinfo: 0
-        },
-        vimeo: {
-            color: 'f00'
-        }
-    });
-
     // :: 9.0 COUNTERUP ACTIVE CODE
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
 
-    // :: 10.0 DATEPICKER ACTIVE CODE
-    $('#datepicker').datepicker({
+    // :: 10.0 AUTO POPUP ACTIVE CODE
+    function showWindow() {
+        $('#exampleModalCenter').show();
+        // stop scroll
+        $('html body').css('overflow', 'hidden')
+    }
+    // showWindow()
 
-        weekStart: 1,
+    function hideWindow() {
+        $('#exampleModalCenter').hide();
+        // on scroll
+        $('html body').css('overflow', 'scroll')
+    }
+    // hideWindow()
 
-        daysOfWeekHighlighted: "6,0",
+    // now call function automatically after some time 
 
-        autoclose: true,
-
-        todayHighlight: true,
-
-    });
-
-
-    $('#datepicker2').datepicker({
-
-        weekStart: 1,
-
-        daysOfWeekHighlighted: "6,0",
-
-        autoclose: true,
-
-        todayHighlight: true,
-
-    });
-
-    $('#datepicker3').datepicker({
-
-        weekStart: 1,
-
-        daysOfWeekHighlighted: "6,0",
-
-        autoclose: true,
-
-        todayHighlight: true,
-
-    });
+    setTimeout(showWindow, 5000)
 
 
-    $('#datepicker4').datepicker({
+    // close after click
+    $('.close').click(function() {
+        hideWindow()
+    })
 
-        weekStart: 1,
-
-        daysOfWeekHighlighted: "6,0",
-
-        autoclose: true,
-
-        todayHighlight: true,
-
-    });
     
     // :: 11.0 NAV TAB HOVER CHANGE IMAGES CODE
     $(".nav-tab-link").hover(function(){
