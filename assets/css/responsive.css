@@ -662,4 +662,17 @@
     #scroll::-webkit-scrollbar-thumb {
         background: #1F806B; 
     } */
+    .malayalam-content p{
+        font-size: 18px;
+    }
+    .modal-content-auto{
+        padding: 5px;
+    }
+    .about-link-modal{
+        margin-bottom: 15px;
+    }
+
+    .modal-auto .modal-dialog{
+        margin-top: 30px;
+    }
 }
