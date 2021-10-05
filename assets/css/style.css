@@ -15,6 +15,7 @@
 :: 13.0  POPUP AREA
 :: 14.0 FOOTER AREA CSS
 :: 15.0 AUTO POUP AREA CSS
+:: 16.0 ABOUT PAGE CSS
 ****************************** */
 
 /* ******************************
@@ -1446,4 +1447,122 @@ img {
 
 .about-link-modal a:hover{
     background-color: #000000;
+}
+
+/* ******************************
+:: 16.0 ABOUT PAGE CSS
+****************************** */
+.about-page-area{
+    background-image: url(../img/about/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 415px;
+    z-index: 10;
+}
+
+.about-us-area{
+    position: relative;
+    z-index: 11;
+}
+
+.about-us-area .pattern-pg{
+    top: -20px;
+}
+
+.first-green-text{
+    margin: 120px 0 50px;
+}
+
+.first-green-text p{
+    color: #015409;
+    font-size: 25px;
+    line-height: 38px;
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.second-black-text{
+    margin-bottom: 35px;
+}
+
+.third-black-text{
+    margin-bottom: 50px;
+}
+
+.second-black-text p,
+.third-black-text p{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.mission-vision{
+    margin-top: 50px;
+}
+
+.mv-box{
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+
+.logo-mv{
+    margin-bottom: 10px;
+}
+
+.head-mv h1{
+    color: #565656;
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.content-mv p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.janaki-head h2{
+    color: #565656;
+    font-weight: 700;
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.janaki-content p{
+    color: #000000;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.janaki-content p.frst-para{
+    margin-bottom: 25px;
+}
+
+.janaki-underpara{
+    margin-top: 25px;
+}
+
+.janaki-underpara p{
+    color: #000000;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.janaki-underpara p.frst-para{
+    margin-bottom: 25px;
+}
+
+.janaki-img,
+.janaki-content{
+    margin-top: -80px;
 }

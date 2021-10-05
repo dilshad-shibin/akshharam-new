@@ -134,22 +134,15 @@
     }
     // showWindow()
 
-    function hideWindow() {
-        $('#exampleModalCenter').hide();
-        // on scroll
-        $('html body').css('overflow', 'scroll')
-    }
-    // hideWindow()
+    // function hideWindow() {
+    //     $('#exampleModalCenter').hide();
+    //     $('html body').css('overflow', 'scroll')
+    // }
 
-    // now call function automatically after some time 
-
-    setTimeout(showWindow, 5000)
-
-
-    // close after click
-    $('.close').click(function() {
-        hideWindow()
-    })
+    // setTimeout(showWindow, 5000)
+    // $('.close').click(function() {
+    //     hideWindow()
+    // })
 
     
     // :: 11.0 NAV TAB HOVER CHANGE IMAGES CODE

@@ -542,6 +542,9 @@
     .footer-area .mail-social-icons{
         margin-top: 10px;
     }
+    .janaki-content{
+        margin-top: 10px;
+    }
 }
 
 
@@ -674,5 +677,20 @@
 
     .modal-auto .modal-dialog{
         margin-top: 30px;
+    }
+    .about-page-area{
+        height: 150px;
+    }
+    .about-us-area{
+        padding-top: 50px;
+    }
+    .about-us-area .pgm-head{
+        margin-bottom: 150px;
+    }
+    .about-us-area .pattern-pg{
+        top: -80px;
+    }
+    .mv-box{
+        padding: 50px 25px;
     }
 }
