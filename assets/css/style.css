@@ -695,6 +695,10 @@ img {
     margin-bottom: 100px;
 }
 
+.pgm-head2{
+    margin-bottom: 150px;
+}
+
 .pgm-head h1::before{
     position: absolute;
     content: "";
