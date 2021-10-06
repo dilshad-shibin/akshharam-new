@@ -696,4 +696,16 @@
     .pgm-head2 h1{
         font-size: 25px;
     }
+    .hari-head h1{
+        font-size: 30px;
+    }
+    .hari-head span{
+        font-size: 22px;
+    }
+    .ratio-img{
+        margin-bottom: 20px;
+    }
+    .ratio-box{
+        margin-bottom: 20px;
+    }
 }

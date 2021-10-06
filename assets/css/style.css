@@ -1678,3 +1678,35 @@ img {
 .boxes-hariarea{
     padding-top: 0;
 }
+
+.student-ratio{
+    padding: 100px 0 80px;
+}
+
+.ratio-box{
+    border: 1px solid #f3f3f3;
+    padding: 40px 30px 45px;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.ratio-box:hover{
+    border: 1px solid #c5a10f;
+}
+
+.ratio-icon{
+    margin-bottom: 20px;
+}
+
+.ratio-icon svg{
+    color: #ff337a;
+    font-size: 45px;
+}
+
+.ratio-content h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
