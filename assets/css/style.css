@@ -1777,3 +1777,7 @@ img {
 .card-header .btn.collapsed::after {
     content: '+';
 }
+
+.faq-img{
+    padding-left: 100px;
+}
