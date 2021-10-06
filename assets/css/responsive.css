@@ -545,6 +545,9 @@
     .janaki-content{
         margin-top: 10px;
     }
+    .contact-box{
+        margin-bottom: 25px;
+    }
 }
 
 
@@ -707,5 +710,12 @@
     }
     .ratio-box{
         margin-bottom: 20px;
+    }
+    .contact-box {
+        margin-bottom: 40px;
+    }
+    .map-area .map,
+    .map-area .map iframe{
+        height: 250px;
     }
 }

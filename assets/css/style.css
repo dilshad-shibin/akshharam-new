@@ -18,6 +18,7 @@
 :: 16.0 ABOUT PAGE CSS
 :: 17.0 HARISHREE PAGE CSS
 :: 18.0 FAQ CSS
+:: 19.0 CONTACT CSS
 ****************************** */
 
 /* ******************************
@@ -1780,4 +1781,154 @@ img {
 
 .faq-img{
     padding-left: 100px;
+}
+
+/* ******************************
+:: 19.0 CONTACT CSS
+****************************** */
+
+.contact-box{
+    position: relative;
+    padding: 40px 20px 90px;
+    text-align: center;
+}
+
+.contact-box::before{
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.contact-box::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -30px;
+    width: 60px;
+    height: 60px;
+    transform: rotate(45deg);
+    background: #fff;
+}
+
+.contact-box h6{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.contact-box p{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 28px;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-box p a{
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.contact-box p a:hover{
+    color: #000;
+}
+
+.contact-box .contact-icon{
+    color: #ff337a;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: -10px;
+    font-size: 40px;
+    line-height: 60px;
+    z-index: 1;
+    width: 30px;
+    text-align: center;
+}
+
+.contact-box .contact-icon2{
+    color: #00b7d1;
+}
+
+.contact-box .contact-icon3{
+    color: #9ce009;
+}
+
+.cb-1{
+    background: #ff337a;
+}
+
+.cb-2{
+    background: #00b7d1;
+}
+
+.cb-3{
+    background: #9ce009;
+}
+
+.cb-4{
+    background: #7b1688;
+}
+
+.contact-form-head h2{
+    color: #2a2a2a;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+.contact-box-inp .form-control{
+    font-size: 14px;
+    height: 50px;
+    padding: 0 15px;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.contact-box-inp .form-group textarea{
+    height: 200px;
+    padding: 15px;
+}
+
+.contact-btn button{
+    background: #c5a10f;
+    color: #fff;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 1rem 2rem !important;
+    transition: all .3s ease;
+}
+
+.contact-btn button:hover{
+    background-color: #2e2a29;
+    color: #fff;
+}
+
+.map-area{
+    padding-top: 0;
+}
+
+.map-area .map {
+    height: 450px;
+    width: 100%;
+}
+
+.map-area .map iframe {
+    width: 100%;
 }
