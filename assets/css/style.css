@@ -17,6 +17,7 @@
 :: 15.0 AUTO POUP AREA CSS
 :: 16.0 ABOUT PAGE CSS
 :: 17.0 HARISHREE PAGE CSS
+:: 18.0 FAQ CSS
 ****************************** */
 
 /* ******************************
@@ -1709,4 +1710,70 @@ img {
     font-size: 20px;
     margin-bottom: 15px;
 
+}
+
+/* ******************************
+:: 18.0 FAQ CSS
+****************************** */
+.faq-area{
+    background: rgba(0, 0, 0, 0) url("../img/faq-shape.png") no-repeat scroll center center / cover;
+}
+
+.faq-head{
+    margin-bottom: 80px;
+}
+
+.faq-head h2{
+    color: #2a2a2a;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+}
+
+.faq-head h2::before{
+    position: absolute;
+    content: "";
+    background-color: #2f9331;
+    height: 4px;
+    width: 8%;
+    left: 50%;
+    bottom: -15px;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+
+.accordion .card{
+    margin-bottom: 1rem !important;
+}
+
+.card-header .btn {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: #1c144e;
+    text-align: left;
+}
+
+.card-header .btn::after, 
+.card-header .btn.collapsed::after {
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 30px);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+}
+
+.card-header .btn::after {
+    content: '-';
+}
+
+.card-header .btn.collapsed::after {
+    content: '+';
 }
