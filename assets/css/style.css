@@ -1027,8 +1027,16 @@ img {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    line-height: 100px;
+    line-height: 95px;
     cursor: pointer;
+    transition: all .3s ease;
+    border: 1px solid #fff;
+}
+
+.video-sec .center-btn:hover{
+    background:#361510;
+    border: 5px solid #fff;
+    line-height: 85px;
 }
 
 /* ******************************
@@ -1975,6 +1983,11 @@ img {
     color: #fff;
     line-height: 70px;
     vertical-align: middle;
+    transition: all .3s ease;
+}
+
+.gallery-overlay a:hover .fa-youtube{
+    color: #ff0000;
 }
 
 .gallery-box:hover .gallery-overlay{
