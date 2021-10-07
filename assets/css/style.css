@@ -19,6 +19,7 @@
 :: 17.0 HARISHREE PAGE CSS
 :: 18.0 FAQ CSS
 :: 19.0 CONTACT CSS
+:: 20.0 GALLERY CSS
 ****************************** */
 
 /* ******************************
@@ -1931,4 +1932,52 @@ img {
 
 .map-area .map iframe {
     width: 100%;
+}
+
+
+/* ******************************
+:: 20.0 GALLERY CSS
+****************************** */
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.gallery-img{
+    position: relative;
+}
+
+.gallery-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(3, 37, 51, 0.60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.gallery-overlay > a {
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    line-height: 70px;
+}
+
+.gallery-overlay svg {
+    font-size: 30px;
+    color: #fff;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+.gallery-box:hover .gallery-overlay{
+    visibility: visible;
+    opacity: 1;
 }
