@@ -1651,10 +1651,15 @@ img {
     background-color: #FFD7EB;
     box-shadow: 0px 15px 50px 0px rgb(231 90 140 / 30%);
     border-radius: 20px;
-    padding: 50px 40px 72px;
+    padding: 50px 40px 40px;
     text-align: center;
     margin-top: 30px;
     transition: .3s;
+    min-height: 410px;
+}
+
+.hari-bx-inner .icon img{
+    max-width: 100px;
 }
 
 .hari-bx-inner2{
@@ -1682,8 +1687,7 @@ img {
 .hari-bx-inner .content span{
     color: #70747F;
     margin-top: 10px;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
 }
 
 .boxes-hariarea{
@@ -1696,15 +1700,20 @@ img {
 
 .ratio-box{
     border: 1px solid #f3f3f3;
-    padding: 40px 30px 45px;
+    padding: 30px 30px 30px;
     background-color: #fff;
     text-align: center;
     position: relative;
     transition: all .3s ease;
+    min-height: 270px;
 }
 
 .ratio-box:hover{
     border: 1px solid #c5a10f;
+}
+
+.ratio-box-vayana{
+    text-align: left;
 }
 
 .ratio-icon{
@@ -1720,6 +1729,24 @@ img {
     font-size: 20px;
     margin-bottom: 15px;
 
+}
+
+.ratio-head h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #2a2a2a;
+    position: relative;
+}
+
+.ratio-head h2::before{
+    position: absolute;
+    content: "";
+    background: #c5a10f;
+    height: 2px;
+    width: 40px;
+    left: 0;
+    bottom: -15px;
 }
 
 /* ******************************
