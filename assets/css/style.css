@@ -649,10 +649,10 @@ img {
 }
 
 .about-content h1{
-    font-size: 42px;
-    font-weight: 700;
+    color: #008896;
+    font-size: 30px;
+    font-weight: 600;
     margin-bottom: 15px;
-    color: #2a2a2a;
 }
 
 .about-content h1 span{
