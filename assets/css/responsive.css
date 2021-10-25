@@ -548,6 +548,9 @@
     .contact-box{
         margin-bottom: 25px;
     }
+    .topbar-area{
+        display: none;
+    }
 }
 
 
@@ -729,5 +732,13 @@
     .callnow_inte svg,
     .whatsapp_inte svg{
         font-size: 20px;
+    }
+    .card-header .btn::after, 
+    .card-header .btn.collapsed::after{
+        left: inherit;
+        right: 0;
+    }
+    .faq-head h2{
+        font-size: 28px;
     }
 }

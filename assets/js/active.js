@@ -102,7 +102,7 @@
         nav: false,
         dots: true,
         smartSpeed: 2000,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 5000,
         responsive: {
             0: {

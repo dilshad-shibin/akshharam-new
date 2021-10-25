@@ -20,6 +20,7 @@
 :: 18.0 FAQ CSS
 :: 19.0 CONTACT CSS
 :: 20.0 GALLERY CSS
+:: 21.0 TOPBAR CSS
 ****************************** */
 
 /* ******************************
@@ -647,6 +648,17 @@ img {
     margin: 0 auto;
 }
 
+.about-content h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #2a2a2a;
+}
+
+.about-content h1 span{
+    color: #c5a10f;
+}
+
 /* new close */
 
 .about-link{
@@ -906,9 +918,14 @@ img {
     margin-bottom: 40px;
 }
 
-.aksharam-head span{
+.aksharam-head p{
     color: #008896;
-    font-size: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.aksharam-head p span{
+    color: #c5a10f;
 }
 
 .aksharam-head h1{
@@ -1077,11 +1094,14 @@ img {
 
 .single-testi .content p{
     color: #000000;
-    font-size: 20px;
-    font-style: italic;
-    line-height: 35px;
-    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 32px;
     padding-right: 45px;
+    margin-bottom: 15px;
+}
+
+.single-testi .content{
+    margin-bottom: 35px;
 }
 
 .client-details h3{
@@ -1524,6 +1544,7 @@ img {
     border-radius: 10px;
     padding: 50px;
     margin-bottom: 40px;
+    min-height: 425px;
 }
 
 .logo-mv{
@@ -1793,6 +1814,8 @@ img {
     background: transparent;
     color: #1c144e;
     text-align: left;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 28px;
 }
 
 .card-header .btn::after, 
@@ -2101,4 +2124,31 @@ img {
     transform: translateY(-50%);
     width: 50px; display: inline-block;
    
+}
+
+/* ******************************
+:: 21.0 TOPBAR CSS
+****************************** */
+
+.topbar-area{
+    background-color: #373f50 !important;
+    padding: .625rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar-content p,
+.topbar-content a{
+    color: rgba(255, 255, 255, 0.65);
+    transition: all .3s ease;
+}
+
+.topbar-content a:hover{
+    color: #c5a10f;
 }
