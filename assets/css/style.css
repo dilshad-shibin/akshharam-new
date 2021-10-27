@@ -2152,3 +2152,46 @@ img {
 .topbar-content a:hover{
     color: #c5a10f;
 }
+
+/* Nw changes */
+
+.navbar{
+    height: 100px;
+}
+
+.navbar-brand .navbar-brand-regular{
+    position: absolute;
+    top: -17px;
+}
+
+.navbar-sticky-on .navbar-brand-sticky{
+    padding-top: 36px;
+}
+
+@media(max-width:991px){
+    .navbar-brand .navbar-brand-regular{
+        top: -40px;
+    }
+    .navbar-sticky-on .navbar-brand-sticky{
+        padding-top: 0;
+    }
+    .navbar-toggler{
+        top: -24px;
+    }
+}
+
+@media(max-width: 575px){
+    .navbar {
+        height: 75px;
+    }
+    .navbar-brand .navbar-brand-regular {
+        top: -26px;
+        max-width: 135px;
+    }
+    .navbar-sticky-on .navbar-brand-sticky{
+        max-width: 135px;
+    }
+    .navbar-sticky-on .navbar-toggler{
+        top: -12px;
+    }
+}
